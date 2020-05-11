@@ -18,6 +18,9 @@ public class PersonCreator {
             e.printStackTrace();
         } catch (NameUndefinedException e) {
             e.printStackTrace();
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.err.println("Przekroczony indeks tablicy persons["+persons.length+"]: " + personId );
+            e.printStackTrace();
         }
     }
 
