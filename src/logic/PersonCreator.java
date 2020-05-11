@@ -26,8 +26,7 @@ public class PersonCreator {
 
     public void showSavedPersons() {
         for (Person p : persons) {
-            if (p != null) System.out.println(p.toString());
-            else System.out.println("Person{null}");
+            System.out.println(p);
         }
     }
 }

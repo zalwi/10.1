@@ -4,7 +4,9 @@ import logic.IncorrectAgeException;
 import logic.NameUndefinedException;
 
 public class Person {
-    private String firstName, lastName, pesel;
+    private String firstName;
+    private String lastName;
+    private String pesel;
     private int age;
 
     public Person(String firstName, String lastName, int age, String pesel) throws NameUndefinedException, IncorrectAgeException {
