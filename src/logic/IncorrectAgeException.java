@@ -1,6 +1,6 @@
 package logic;
 
-public class IncorrectAgeException extends Throwable {
+public class IncorrectAgeException extends RuntimeException {
     public IncorrectAgeException(String message) {
         super(message);
     }

@@ -1,6 +1,6 @@
 package logic;
 
-public class NameUndefinedException extends Throwable {
+public class NameUndefinedException extends RuntimeException {
     public NameUndefinedException(String message) {
         super(message);
     }
