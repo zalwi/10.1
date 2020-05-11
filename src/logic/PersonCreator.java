@@ -5,7 +5,7 @@ import logic.IncorrectAgeException;
 import logic.NameUndefinedException;
 
 public class PersonCreator {
-    Person[] persons;
+    private Person[] persons;
 
     public PersonCreator() {
         this.persons = new Person[3];
